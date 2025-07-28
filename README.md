@@ -5,8 +5,10 @@ An Arduino-based smart sysytem that detects room occupancy using sensors and aut
 
 • To reduce the wastage of electricity in
   local rural farms.
+
 • To make farming budget friendly for poor
   farmers.
+
 • To provide a low cost,efficient and
   sacalble solutions for smart energy
   usage specially in ruaral areas where
@@ -18,15 +20,20 @@ An Arduino-based smart sysytem that detects room occupancy using sensors and aut
  • Automatic power control: 
    Turns appliances ON/OFF based on room 
    occupancy.
+
  • Motion sensor and camera detection:
    Uses PIR sensor and optional camera to 
    detect presence.
+
  • Relay-based switching:
    Control AC or DC devices via Arduino and     relay module.
+
  • Energy Efficient:
    Reduces power wastage in empty rooms.
+
  • Real world tested:
    verified performance in actual room          conditions.
+
  • Expandable design:
    can add light,temperature sensors and app
    contol in future.

@@ -117,7 +117,12 @@ Although the setup worked perfectly, the physical wiring and sensor placement we
 
 ##. Images for Educational clarity.
 
-[Flow chart]
+[Flow chart](AI-Illustrated flow chart.png.png):
+Ai illustrated flow chart for better clarity.
+
+[circuit daigram]
+
+
 
 
   

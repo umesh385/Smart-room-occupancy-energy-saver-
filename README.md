@@ -132,6 +132,82 @@ Although the setup worked perfectly, the physical wiring and sensor placement we
 (AI-Illustrated circuit daigram.png.png):
 • Ai illustrated circuit daigram for clarity.
 
+##.Code Overview
+# Arduino code working.
+
+1)Sensor Input (Motion or IR Sensor)
+• The Arduino constantly reads input from a 
+  PIR(Passive Infrared)sensor or IR sensor.
+• When the sensor detects motion or presence
+  it sends a high signal to the Arduino pin.
+
+2)Relay module.
+• Based on sensor Input,the Arduino  
+  activates or deactivates a relay module
+  connected to electrical devices.
+• If someone is detected in the room.
+-->Arduino turns the relay ON-devices get 
+   power.
+  If no one in the room for a set time.
+-->Arduino turns the relay OFF-devices are 
+   powered down.
+
+3)Delay Handling.
+• A small dealy or timeout features is used 
+  to prevent rapid switching.
+
+4)Power control logic.
+• The Relay works like a switch for AC
+  devices .Arduino send low or High signals
+  to control the power line safely.
+
+# python code working.
+
+1)Camera Initialization.
+• The python script uses OpenCV to access a 
+  camera feed.
+
+2)Occupancy Decision.
+• If a person is detected
+  -->A flag is set to occupied=True
+  If no person is detected for a set time
+  -->The room is marked as empty.
+
+3)Relay switching.
+• when using with an Arduino the python code
+  can communicate over serial(USB)
+--> Sends'1' when room is occupied- 
+    Arduino turns ON relay
+--> Sends'0' when room is empty-
+    Arduino turns OFF relay
+
+4)Energy saving.
+• This whope system helps automate room 
+  power usage,saving energy intelligently
+  with real time human presence detection.
+
+
+(camera-> python detects person->sendssignal
+->Arduino->Relay->devices(ON/OFF))
+
+## Future Improvements.
+I am thinking about to have some more modifications in it but currently i dont get the proper way of it but once i get the proper way i will definitely add in it.
+       Or 
+If anyone wants to suggest and improvements can suggest freely.
+
+## Use of AI-Illustration.
+  (I found this approach best for the better
+   communication professionally and for
+  better understanding rather than raw and
+  many clutterd images.)
+
+In the Smart Room Occupancy Energy Saver project, I used AI-generated illustrations to clearly show how the system detects human presence using sensors and controls electrical appliances like fans or lights accordingly.
+
+While I built and tested the circuit using real components (PIR sensor, Arduino, relay, etc.), the physical setup involved loose wires, breadboards, and components taped around a room during early testing. The actual photos I captured didn’t clearly show how the system works or how components connect — especially for someone unfamiliar with electronics.
+
+So, I created AI-generated diagrams that accurately represent my real working model. These visuals show how the sensor detects motion, how the signal is processed by the microcontroller, and how the relay switches the appliances. Every part shown matches the actual hardware I used.
+
+I chose this approach only for clarity and communication. The AI illustrations helped me present the logic of the system in a clean, easy-to-understand way — which is especially useful for documentation and educational purposes.
 
 
 

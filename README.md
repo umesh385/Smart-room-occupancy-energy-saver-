@@ -210,6 +210,10 @@ So, I created AI-generated diagrams that accurately represent my real working mo
 I chose this approach only for clarity and communication. The AI illustrations helped me present the logic of the system in a clean, easy-to-understand way — which is especially useful for documentation and educational purposes.
 
 
+##. Built By:
+
+**UMESH KUMAR** 
+Focused on building Practical, low cost solutions for rural India.
 
 
 

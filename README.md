@@ -1,6 +1,10 @@
 # Smart-room-occupancy-energy-saver-
 An Arduino-based smart sysytem that detects room occupancy using sensors and automatically turns OFF lights,fans and devices to save electricity.Built for rural and urban applications to reduce energy waste.Includes AI-generated diagrams and real hardware-tested logic .
 
+### Motivation
+Living in India’s hot climate—which wastes a lot of energy keeping unoccupied rooms cool—inspired me to build a smart occupancy-based energy saver that uses low-cost sensors and automation.
+
+
 ##. Project purpose.
 
 • To reduce the wastage of electricity in
